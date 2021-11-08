@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\CakeLayer_Decorator">
+      <UniqueIdentifier>{38904dd8-30c3-4797-a5d7-2e5ace124b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CakeLayer_Decorator\Topping">
+      <UniqueIdentifier>{c80b6f3d-69de-4272-8755-c26cc3fa8e86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cake Type">
+      <UniqueIdentifier>{0e96ab44-3090-40e9-83c2-8cb94f6fb903}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mainCake.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CakeLayer_Decorator.h">
+      <Filter>Source Files\CakeLayer_Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="addCherry.h">
+      <Filter>Source Files\CakeLayer_Decorator\Topping</Filter>
+    </ClInclude>
+    <ClInclude Include="addOrange.h">
+      <Filter>Source Files\CakeLayer_Decorator\Topping</Filter>
+    </ClInclude>
+    <ClInclude Include="ALL_TOPPING.h">
+      <Filter>Source Files\CakeLayer_Decorator\Topping</Filter>
+    </ClInclude>
+    <ClInclude Include="Cake_Corn.h">
+      <Filter>Source Files\Cake Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Cake.h">
+      <Filter>Source Files\Cake Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Cake_Cheese.h">
+      <Filter>Source Files\Cake Type</Filter>
+    </ClInclude>
+    <ClInclude Include="CAKE_ALL.h">
+      <Filter>Source Files\Cake Type</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

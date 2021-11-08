@@ -1,0 +1,15 @@
+#pragma once
+#ifndef CAKE_CHEESE_H
+#define CAKE_CHEESE_H
+#include "Cake.h"
+
+class CakeCheese :public CakeLayer
+{
+public:
+	std::string desc() { return "Cheese Cake Layer"; };
+	int price() { return 50000; }
+	double timeTake() { return 10; };
+};
+
+
+#endif // !CAKE_CORN_H
