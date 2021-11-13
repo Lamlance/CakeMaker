@@ -143,6 +143,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="addApple.h" />
+    <ClInclude Include="addBanana.h" />
     <ClInclude Include="addCaramel.h" />
     <ClInclude Include="addCheese.h" />
     <ClInclude Include="addCherry.h" />
