@@ -86,7 +86,10 @@
     <ClInclude Include="addCheese.h">
       <Filter>Source Files\CakeLayer_Decorator\Topping</Filter>
     </ClInclude>
-    <ClInclude Include="AddCaramel.h">
+    <ClInclude Include="addCaramel.h">
+      <Filter>Source Files\CakeLayer_Decorator\Topping</Filter>
+    </ClInclude>
+    <ClInclude Include="addYogurt.h">
       <Filter>Source Files\CakeLayer_Decorator\Topping</Filter>
     </ClInclude>
   </ItemGroup>

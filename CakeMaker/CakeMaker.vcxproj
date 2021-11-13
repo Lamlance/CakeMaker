@@ -142,10 +142,11 @@
     <ClCompile Include="mainCake.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AddCaramel.h" />
+    <ClInclude Include="addCaramel.h" />
     <ClInclude Include="addCheese.h" />
     <ClInclude Include="addCherry.h" />
     <ClInclude Include="addOrange.h" />
+    <ClInclude Include="addYogurt.h" />
     <ClInclude Include="ALL_TOPPING.h" />
     <ClInclude Include="Cake.h" />
     <ClInclude Include="CakeLayer_Decorator.h" />
