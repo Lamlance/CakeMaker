@@ -12,4 +12,4 @@ public:
 };
 
 
-#endif // !CAKE_CORN_H
+#endif // !CAKE_CHEESE_H
