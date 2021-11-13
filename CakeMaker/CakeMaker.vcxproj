@@ -149,6 +149,7 @@
     <ClInclude Include="CakeLayer_Decorator.h" />
     <ClInclude Include="CAKE_ALL.h" />
     <ClInclude Include="Cake_Banana.h" />
+    <ClInclude Include="Cake_Caramel.h" />
     <ClInclude Include="Cake_CarrotAndWalnut.h" />
     <ClInclude Include="Cake_Cheese.h" />
     <ClInclude Include="Cake_Cherry.h" />
