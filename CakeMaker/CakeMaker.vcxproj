@@ -155,6 +155,7 @@
     <ClInclude Include="Cake_Chocolate.h" />
     <ClInclude Include="Cake_Coconut.h" />
     <ClInclude Include="Cake_Corn.h" />
+    <ClInclude Include="Cake_Lemon.h" />
     <ClInclude Include="Cake_Milk.h" />
     <ClInclude Include="Cake_MilkTea.h" />
   </ItemGroup>
