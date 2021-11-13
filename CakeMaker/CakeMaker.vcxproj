@@ -142,6 +142,7 @@
     <ClCompile Include="mainCake.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="addCheese.h" />
     <ClInclude Include="addCherry.h" />
     <ClInclude Include="addOrange.h" />
     <ClInclude Include="ALL_TOPPING.h" />

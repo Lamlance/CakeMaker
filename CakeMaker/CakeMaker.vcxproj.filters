@@ -83,5 +83,8 @@
     <ClInclude Include="Cake_Caramel.h">
       <Filter>Source Files\Cake Type</Filter>
     </ClInclude>
+    <ClInclude Include="addCheese.h">
+      <Filter>Source Files\CakeLayer_Decorator\Topping</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
