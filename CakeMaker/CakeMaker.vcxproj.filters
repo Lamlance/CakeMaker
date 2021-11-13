@@ -95,5 +95,8 @@
     <ClInclude Include="addApple.h">
       <Filter>Source Files\CakeLayer_Decorator\Topping</Filter>
     </ClInclude>
+    <ClInclude Include="addCorn.h">
+      <Filter>Source Files\CakeLayer_Decorator\Topping</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -146,6 +146,7 @@
     <ClInclude Include="addCaramel.h" />
     <ClInclude Include="addCheese.h" />
     <ClInclude Include="addCherry.h" />
+    <ClInclude Include="addCorn.h" />
     <ClInclude Include="addOrange.h" />
     <ClInclude Include="addYogurt.h" />
     <ClInclude Include="ALL_TOPPING.h" />
