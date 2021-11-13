@@ -56,5 +56,8 @@
     <ClInclude Include="Cake_Cheese.h">
       <Filter>Source Files\Cake Type</Filter>
     </ClInclude>
+    <ClInclude Include="Cake_Coconut.h">
+      <Filter>Source Files\Cake Type</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
