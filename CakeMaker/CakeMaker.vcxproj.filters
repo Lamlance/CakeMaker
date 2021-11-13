@@ -47,10 +47,13 @@
     <ClInclude Include="Cake.h">
       <Filter>Source Files\Cake Type</Filter>
     </ClInclude>
-    <ClInclude Include="Cake_Cheese.h">
+    <ClInclude Include="CAKE_ALL.h">
       <Filter>Source Files\Cake Type</Filter>
     </ClInclude>
-    <ClInclude Include="CAKE_ALL.h">
+    <ClInclude Include="Cake_Chocolate.h">
+      <Filter>Source Files\Cake Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Cake_Cheese.h">
       <Filter>Source Files\Cake Type</Filter>
     </ClInclude>
   </ItemGroup>

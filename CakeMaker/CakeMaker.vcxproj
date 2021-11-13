@@ -149,6 +149,7 @@
     <ClInclude Include="CakeLayer_Decorator.h" />
     <ClInclude Include="CAKE_ALL.h" />
     <ClInclude Include="Cake_Cheese.h" />
+    <ClInclude Include="Cake_Chocolate.h" />
     <ClInclude Include="Cake_Corn.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
