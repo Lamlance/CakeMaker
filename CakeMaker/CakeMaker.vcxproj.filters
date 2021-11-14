@@ -47,11 +47,59 @@
     <ClInclude Include="Cake.h">
       <Filter>Source Files\Cake Type</Filter>
     </ClInclude>
+    <ClInclude Include="CAKE_ALL.h">
+      <Filter>Source Files\Cake Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Cake_Chocolate.h">
+      <Filter>Source Files\Cake Type</Filter>
+    </ClInclude>
     <ClInclude Include="Cake_Cheese.h">
       <Filter>Source Files\Cake Type</Filter>
     </ClInclude>
-    <ClInclude Include="CAKE_ALL.h">
+    <ClInclude Include="Cake_Coconut.h">
       <Filter>Source Files\Cake Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Cake_Cherry.h">
+      <Filter>Source Files\Cake Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Cake_MilkTea.h">
+      <Filter>Source Files\Cake Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Cake_Milk.h">
+      <Filter>Source Files\Cake Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Cake_Banana.h">
+      <Filter>Source Files\Cake Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Cake_CarrotAndWalnut.h">
+      <Filter>Source Files\Cake Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Cake_Lemon.h">
+      <Filter>Source Files\Cake Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Cake_Vanilla.h">
+      <Filter>Source Files\Cake Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Cake_Caramel.h">
+      <Filter>Source Files\Cake Type</Filter>
+    </ClInclude>
+    <ClInclude Include="addCheese.h">
+      <Filter>Source Files\CakeLayer_Decorator\Topping</Filter>
+    </ClInclude>
+    <ClInclude Include="addCaramel.h">
+      <Filter>Source Files\CakeLayer_Decorator\Topping</Filter>
+    </ClInclude>
+    <ClInclude Include="addYogurt.h">
+      <Filter>Source Files\CakeLayer_Decorator\Topping</Filter>
+    </ClInclude>
+    <ClInclude Include="addApple.h">
+      <Filter>Source Files\CakeLayer_Decorator\Topping</Filter>
+    </ClInclude>
+    <ClInclude Include="addCorn.h">
+      <Filter>Source Files\CakeLayer_Decorator\Topping</Filter>
+    </ClInclude>
+    <ClInclude Include="addBanana.h">
+      <Filter>Source Files\CakeLayer_Decorator\Topping</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -142,14 +142,30 @@
     <ClCompile Include="mainCake.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="addApple.h" />
+    <ClInclude Include="addBanana.h" />
+    <ClInclude Include="addCaramel.h" />
+    <ClInclude Include="addCheese.h" />
     <ClInclude Include="addCherry.h" />
+    <ClInclude Include="addCorn.h" />
     <ClInclude Include="addOrange.h" />
+    <ClInclude Include="addYogurt.h" />
     <ClInclude Include="ALL_TOPPING.h" />
     <ClInclude Include="Cake.h" />
     <ClInclude Include="CakeLayer_Decorator.h" />
     <ClInclude Include="CAKE_ALL.h" />
+    <ClInclude Include="Cake_Banana.h" />
+    <ClInclude Include="Cake_Caramel.h" />
+    <ClInclude Include="Cake_CarrotAndWalnut.h" />
     <ClInclude Include="Cake_Cheese.h" />
+    <ClInclude Include="Cake_Cherry.h" />
+    <ClInclude Include="Cake_Chocolate.h" />
+    <ClInclude Include="Cake_Coconut.h" />
     <ClInclude Include="Cake_Corn.h" />
+    <ClInclude Include="Cake_Lemon.h" />
+    <ClInclude Include="Cake_Milk.h" />
+    <ClInclude Include="Cake_MilkTea.h" />
+    <ClInclude Include="Cake_Vanilla.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

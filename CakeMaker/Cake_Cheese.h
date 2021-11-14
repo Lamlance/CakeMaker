@@ -7,9 +7,9 @@ class CakeCheese :public CakeLayer
 {
 public:
 	std::string desc() { return "Cheese Cake Layer"; };
-	int price() { return 50000; }
+	int price() { return 5000; }
 	double timeTake() { return 10; };
 };
 
 
-#endif // !CAKE_CORN_H
+#endif // !CAKE_CHEESE_H
