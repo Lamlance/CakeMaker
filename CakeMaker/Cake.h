@@ -1,6 +1,4 @@
 #pragma once
-#ifndef CAKE_H
-#define CAKE_H
 #include <string>
 #include <vector>
 
@@ -18,6 +16,3 @@ public:
 	Cake() : cake(0) {};
 	std::vector<CakeLayer*> cake;
 };
-
-
-#endif // !CAKE_H

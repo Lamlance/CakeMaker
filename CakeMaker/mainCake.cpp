@@ -1,11 +1,14 @@
 #include "ALL_TOPPING.h"
 #include "CAKE_ALL.h"
+#include "Cake.h"
 #include <iostream>
 #include <string>
+#include <vector>
 
 int main()
 {
-	Cake fullCake;
+	Cake c;
+	CakeLayer* layer;
 	int layerOption;
 	int toppingOption;
 	std::cout << "We have these layers and these topping, please choose the one you like: \n";
@@ -44,47 +47,87 @@ int main()
 		switch (layerOption)
 		{
 		case 1:
-			CakeLayer * layer1 = new CakeBanana;
-			fullCake.cake.push_back(layer1);
-			std::cout << layer1->price() << "\n";
+			layer = new CakeBanana;
+			c.cake.push_back(layer);
+			std::cout << layer->price();
+			
 			break;
-		/*case 2:
-			CakeLayer * layer2 = new CakeCaramel;
-			std::cout << layer2->price() << "\n";
+		case 2:
+			layer = new CakeCaramel;
+			c.cake.push_back(layer);
+			std::cout << layer->price();
+			
 			break;
 		case 3:
-			CakeLayer * layer3 = new CakeCarrotAndWalnut;
-			std::cout << layer3->price() << "\n";
+			layer = new CakeCarrotAndWalnut;
+			c.cake.push_back(layer);
+			std::cout << layer->price();
+			
 			break;
 		case 4:
-			CakeLayer * layer4 = new CakeCheese; std::cout << layer4->price() << "\n";
+			layer = new CakeCheese;
+			c.cake.push_back(layer);
+			std::cout << layer->price();
+			
 			break;
 		case 5:
-			CakeLayer * layer5 = new CakeCherry; std::cout << layer5->price() << "\n";
+			layer = new CakeCherry;
+			c.cake.push_back(layer);
+			std::cout << layer->price();
+			
 			break;
 		case 6:
-			CakeLayer * layer6 = new CakeChocolate; std::cout << layer6->price() << "\n";
+			layer = new CakeChocolate;
+			c.cake.push_back(layer);
+			std::cout << layer->price();
+			
 			break;
 		case 7:
-			CakeLayer * layer7 = new CakeCoconut; std::cout << layer7->price() << "\n";
+			layer = new CakeCoconut;
+			c.cake.push_back(layer);
+			std::cout << layer->price();
+			
 			break;
 		case 8:
-			CakeLayer * layer8 = new CakeCorn; std::cout << layer8->price() << "\n";
+			layer = new CakeCorn;
+			c.cake.push_back(layer);
+			std::cout << layer->price();
+			
 			break;
 		case 9:
-			CakeLayer * layer9 = new CakeLemon; std::cout << layer9->price() << "\n";
+			layer = new CakeLemon;
+			c.cake.push_back(layer);
+			std::cout << layer->price();
+			
 			break;
 		case 10:
-			CakeLayer * layer10 = new CakeMilk; std::cout << layer10->price() << "\n";
+			layer = new CakeMilk;
+			c.cake.push_back(layer);
+			std::cout << layer->price();
+			
 			break;
 		case 11:
-			CakeLayer * layer11 = new CakeMilkTea; std::cout << layer11->price() << "\n";
+			layer = new CakeMilkTea;
+			c.cake.push_back(layer);
+			std::cout << layer->price();
+			
 			break;
 		case 12:
-			CakeLayer * layer12 = new CakeVanilla; std::cout << layer12->price() << "\n";
-			break;*/
+			layer = new CakeVanilla;
+			c.cake.push_back(layer);
+			std::cout << layer->price();
+			
+			break;
 		} 
 	} while (layerOption != 0 && layerCount <= 5);
+	int total_money = 0;
+	for (int i = 0; i < c.cake.size(); i++) {
+		total_money += c.cake[i]->price();
+	}
+	std::cout << "\nTotal money: " << total_money;
+	for (int i = 0; i < c.cake.size(); i++) {
+		delete c.cake[i];
+	}
 	/*CakeLayer* layer1 = new CakeCheese;
 	layer1 = new addCherry(layer1, 4);
 	fullCake.cake.push_back(layer1);
