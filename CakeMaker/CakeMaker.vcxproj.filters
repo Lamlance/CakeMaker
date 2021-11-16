@@ -27,6 +27,9 @@
     <ClCompile Include="mainCake.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CakeLayer_Decorator.h">
@@ -100,6 +103,9 @@
     </ClInclude>
     <ClInclude Include="addBanana.h">
       <Filter>Source Files\CakeLayer_Decorator\Topping</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
