@@ -10,6 +10,8 @@ public:
 	std::string desc() { return CakeLayer_Decorator::desc() + " + Caramel x " + std::to_string(amount); };
 	int price() { return CakeLayer_Decorator::price() + (amount * 10000); };
 	double timeTake() { return CakeLayer_Decorator::timeTake() + (amount * 0.5); };
+	CakeLayer* removeDec() { return cakeLayer_obj; };
+
 private:
 	int amount;
 };

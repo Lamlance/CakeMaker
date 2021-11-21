@@ -9,6 +9,8 @@ public:
 	std::string desc() { return "Caramel Cake Layer"; };
 	int price() { return 100000; }
 	double timeTake() { return 20; };
+	CakeLayer* removeDec() { return this; };
+
 };
 
 

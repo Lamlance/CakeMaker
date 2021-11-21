@@ -11,7 +11,7 @@ public:
 	int price() { return cakeLayer_obj->price(); };
 	double timeTake() { return cakeLayer_obj->timeTake(); };
 
-private:
+protected:
 	CakeLayer* cakeLayer_obj;
 };
 

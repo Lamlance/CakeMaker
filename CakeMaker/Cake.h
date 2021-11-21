@@ -9,6 +9,7 @@ public:
 	virtual std::string desc() = 0;
 	virtual int price() = 0;
 	virtual double timeTake() = 0;
+	virtual CakeLayer* removeDec() = 0;
 };
 class Cake
 {
