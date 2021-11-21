@@ -7,7 +7,7 @@ class addBanana : public CakeLayer_Decorator
 {
 public:
 	addBanana(CakeLayer* obj, int amountVal = 1) :CakeLayer_Decorator(obj), amount(amountVal) {};
-	std::string desc() { return CakeLayer_Decorator::desc() + " + Banana x " + std::to_string(amount); };
+	std::string desc() { return CakeLayer_Decorator::desc() + "\t + Banana x " + std::to_string(amount); };
 	int price() { return CakeLayer_Decorator::price() + (amount * 2000); };
 	double timeTake() { return CakeLayer_Decorator::timeTake() + (amount * 0.2); };
 private:

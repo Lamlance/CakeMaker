@@ -117,10 +117,15 @@ void GUI() {
 	for (int i = 0; i < c.cake.size(); i++) {
 		total_money += c.cake[i]->price();
 	}
-	std::cout << "\nTotal money: " << total_money;
-	for (int i = 0; i < c.cake.size(); i++) {
-		delete c.cake[i];
-	}
+	std::cout << "\nTotal money of layer: " << total_money;
+	
+	
+	//for (int i = 0; i < c.cake.size(); i++) {
+	//	delete c.cake[i];
+	//}
+
+
+
 	/*CakeLayer* layer1 = new CakeCheese;
 	layer1 = new addCherry(layer1, 4);
 	fullCake.cake.push_back(layer1);
@@ -137,4 +142,105 @@ void GUI() {
 		std::cout << " " << fullCake.cake[i]->price() << std::endl;
 		std::cout << " " << fullCake.cake[i]->timeTake() << std::endl;
 	}*/
+
+	std::cout << "\t\t\tTime to add topping\n";
+	std::cout << "\n------------------------------------Topping------------------------------------ \n";
+	std::cout << "\t [1]:  Add Apple \n";
+	std::cout << "\t [2]:  Add Banana \n";
+	std::cout << "\t [3]:  Add Caramel \n";
+	std::cout << "\t [4]:  Add Cheese \n";
+	std::cout << "\t [5]:  Add Cherry \n";
+	std::cout << "\t [6]:  Add Corn \n";
+	std::cout << "\t [7]:  Add Orange \n";
+	std::cout << "\t [8]:  Add Yogurt \n";
+
+	
+	Cake fullCake;
+	std::string cont = "n";
+	do {
+		std::cout << "\nWhich layer do you wanna add toppings? ";
+		int iLayer;
+		std::cin >> iLayer;
+		std::cout << "Layer " << iLayer << " has been selected!! " << c.cake[iLayer]->desc() << "\n";
+		//c.cake[layerOption];
+		int amount = 0;
+		std::cout << "Which topping: ";
+		std::cin >> toppingOption;
+		switch (toppingOption) {
+		case 1:
+			std::cout << "Number of Apple: ";
+			std::cin >> amount;
+			c.cake[iLayer] = new addApple(c.cake[iLayer], amount);
+			fullCake.cake.push_back(c.cake[iLayer]);
+			break;
+		case 2:
+			std::cout << "Number of Banana: ";
+			std::cin >> amount;
+			c.cake[iLayer] = new addBanana(c.cake[iLayer], amount);
+			fullCake.cake.push_back(c.cake[iLayer]);
+			break;
+		case 3:
+			std::cout << "Number of Caramel: ";
+			std::cin >> amount;
+			c.cake[iLayer] = new addCaramel(c.cake[iLayer], amount);
+			fullCake.cake.push_back(c.cake[iLayer]);
+			break;
+		case 4:
+			std::cout << "Number of Cheese: ";
+			std::cin >> amount;
+			c.cake[iLayer] = new addCheese(c.cake[iLayer], amount);
+			fullCake.cake.push_back(c.cake[iLayer]);
+			break;
+		case 5:
+			std::cout << "Number of Cherry: ";
+			std::cin >> amount;
+			c.cake[iLayer] = new addCherry(c.cake[iLayer], amount);
+			fullCake.cake.push_back(c.cake[iLayer]);
+			break;
+		case 6:
+			std::cout << "Number of Corn: ";
+			std::cin >> amount;
+			c.cake[iLayer] = new addCorn(c.cake[iLayer], amount);
+			fullCake.cake.push_back(c.cake[iLayer]);
+			break;
+		case 7:
+			std::cout << "Number of Orange: ";
+			std::cin >> amount;
+			c.cake[iLayer] = new addOrange(c.cake[iLayer], amount);
+			fullCake.cake.push_back(c.cake[iLayer]);
+			break;
+		case 8:
+			std::cout << "Number of Yogurt: ";
+			std::cin >> amount;
+			c.cake[iLayer] = new addYogurt(c.cake[iLayer], amount);
+			fullCake.cake.push_back(c.cake[iLayer]);
+			break;
+		default:
+			break;
+		}
+		std::cout << "Do you want continue adding toppings for other layers? (y/n): ";
+		std::cin >> cont;
+	} while (cont == "y");
+
+	int cPrice = 0;
+	int cTime = 0;
+	std::cout << "\n";
+
+	for (int i = 0; i < c.cake.size(); i++)
+	{
+		std::cout << "Layer " << i + 1 << " ";
+		std::cout << " " << c.cake[i]->desc();
+		cPrice += c.cake[i]->price();
+		cTime += c.cake[i]->timeTake();
+		//std::cout << "\t" << c.cake[i]->price();
+		//std::cout << "\t" << c.cake[i]->timeTake() << std::endl;
+		std::cout << "\n";
+	}
+	std::cout << "\nYou must waiting in " << cTime << " s";
+	std::cout << "\nTotal money: " << cPrice << " vnd\n";
+	
+	for (int i = 0; i < c.cake.size(); i++) {
+		delete c.cake[i];
+		//delete fullCake.cake[i];
+	}
 }
